@@ -9,7 +9,7 @@ const mockData = [
     imagem: "https://cms-blog.saipos.com/Entenda-como-funciona-um-Restaurante--La-Carte-SAIPOS-sistema-para-restaurantes-1.jpg",
     whatsapp: "",
     maps: "",
-    comentario: "teste yteste tetets"
+    comentario: ""
   },
   {
     id: 2,
@@ -20,7 +20,8 @@ const mockData = [
     endereco: "Av. Itália, 456, Bairro Nobre",
     imagem: "https://cms-blog.saipos.com/Entenda-como-funciona-um-Restaurante--La-Carte-SAIPOS-sistema-para-restaurantes-1.jpg",
     whatsapp: "",
-    maps: ""
+    maps: "",
+    comentario: ""
   },
   {
     id: 3,
@@ -31,7 +32,8 @@ const mockData = [
     endereco: "Rua do Churrasco, 789, Zona Sul",
     imagem: "https://cms-blog.saipos.com/Entenda-como-funciona-um-Restaurante--La-Carte-SAIPOS-sistema-para-restaurantes-1.jpg",
     whatsapp: "",
-    maps: ""
+    maps: "",
+    comentario: ""
   },
   {
     id: 4,
@@ -42,7 +44,8 @@ const mockData = [
     endereco: "Av. Japão, 321, Bairro Oriental",
     imagem: "https://cms-blog.saipos.com/Entenda-como-funciona-um-Restaurante--La-Carte-SAIPOS-sistema-para-restaurantes-1.jpg",
     whatsapp: "",
-    maps: ""
+    maps: "",
+    comentario: ""
   },
   {
     id: 5,
@@ -53,7 +56,8 @@ const mockData = [
     endereco: "Rua Paris, 852, Bairro Nobre",
     imagem: "https://cms-blog.saipos.com/Entenda-como-funciona-um-Restaurante--La-Carte-SAIPOS-sistema-para-restaurantes-1.jpg",
     whatsapp: "",
-    maps: ""
+    maps: "",
+    comentario: ""
   },
   {
     id: 6,
@@ -64,7 +68,8 @@ const mockData = [
     endereco: "Av. das Pizzas, 111, Centro",
     imagem: "https://cms-blog.saipos.com/Entenda-como-funciona-um-Restaurante--La-Carte-SAIPOS-sistema-para-restaurantes-1.jpg",
     whatsapp: "",
-    maps: ""
+    maps: "",
+    comentario: ""
   },
   {
     id: 7,
@@ -75,7 +80,8 @@ const mockData = [
     endereco: "Rua dos Lanches, 222, Bairro Gastronômico",
     imagem: "https://cms-blog.saipos.com/Entenda-como-funciona-um-Restaurante--La-Carte-SAIPOS-sistema-para-restaurantes-1.jpg",
     whatsapp: "",
-    maps: ""
+    maps: "",
+    comentario: ""
   },
   {
     id: 8,
@@ -86,7 +92,8 @@ const mockData = [
     endereco: "Estrada da Fazenda, KM 5, Zona Rural",
     imagem: "https://cms-blog.saipos.com/Entenda-como-funciona-um-Restaurante--La-Carte-SAIPOS-sistema-para-restaurantes-1.jpg",
     whatsapp: "",
-    maps: ""
+    maps: "",
+    comentario: ""
   },
   {
     id: 9,
@@ -97,7 +104,8 @@ const mockData = [
     endereco: "Rua Natureza, 777, Centro",
     imagem: "https://cms-blog.saipos.com/Entenda-como-funciona-um-Restaurante--La-Carte-SAIPOS-sistema-para-restaurantes-1.jpg",
     whatsapp: "",
-    maps: ""
+    maps: "",
+    comentario: ""
   },
   {
     id: 10,
@@ -108,7 +116,8 @@ const mockData = [
     endereco: "Av. Texas, 999, Bairro Oeste",
     imagem: "https://cms-blog.saipos.com/Entenda-como-funciona-um-Restaurante--La-Carte-SAIPOS-sistema-para-restaurantes-1.jpg",
     whatsapp: "",
-    maps: ""
+    maps: "",
+    comentario: ""
   }
 ];
 
