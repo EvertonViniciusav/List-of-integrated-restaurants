@@ -4,12 +4,12 @@ import { ScrollView, View, Text, StyleSheet, TouchableOpacity, Image, TextInput 
 const RestauranteDetailScreen = ({ route }) => {
   const { nome, descricao, horario, telefone, imagem, endereco, comentario } = route.params;
 
-  const [ncomentario, setNcomentario] = React.useState(""); // Estado para o novo comentário
-  const [comentarioN, setComentarioN] = React.useState(comentario); // Estado para os comentários
+  const [ncomentario, setNcomentario] = React.useState("");
+  const [comentarioN, setComentarioN] = React.useState(comentario);
 
   function enviarTarefa() {
     if(ncomentario != '') {
-      setComentarioN(comentarioN + "\n" +"Nome da pessoa: "+ ncomentario);
+      setComentarioN(comentarioN + "\n" +"Everton Vinicius: "+ ncomentario);
       setNcomentario("");
     }
   }
