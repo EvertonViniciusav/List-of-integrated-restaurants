@@ -2,7 +2,16 @@ import React from "react";
 import { ScrollView, View, Text, StyleSheet, TouchableOpacity, Image, TextInput } from "react-native";
 
 const RestauranteDetailScreen = ({ route }) => {
-  const { nome, descricao, horario, telefone, imagem, endereco, comentario } = route.params;
+  const {
+    nome = '',
+    descricao = '',
+    horario = '',
+    telefone = '',
+    imagem = '',
+    endereco = '',
+    comentario = '',
+  } = route.params || {};
+
 
   const [ncomentario, setNcomentario] = React.useState("");
   const [comentarioN, setComentarioN] = React.useState(comentario);
@@ -53,7 +62,7 @@ const RestauranteDetailScreen = ({ route }) => {
             />
         </View>
         <TouchableOpacity style={styles.botaoComentario} onPress={enviarTarefa}>
-          <Text style={styles.textoBotao}>Enviar</Text>
+          <Text style={styles.textoBotao}>➡️ Enviar</Text>
         </TouchableOpacity>
 
         <View style={styles.comentariosDisplay}>
@@ -152,8 +161,8 @@ const styles = StyleSheet.create({
   botaoComentario: {
     backgroundColor: "#007AFF",
     marginTop: 10,
-    paddingTop: 20,
-    paddingBottom: 20,
+    paddingTop: 10,
+    paddingBottom: 10,
     borderRadius: 5,
     width: "100%",
     marginLeft: 10,
